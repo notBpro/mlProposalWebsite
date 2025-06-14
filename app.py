@@ -50,6 +50,9 @@ st.info("""
 [6] "Random Forest and Other Randomized Tree Ensembles," Scikit Learn. [Online] Available: https://scikit-learn.org/stable/modules/ensemble.html#forest [Accessed June 13, 2025] 
 """)
 
+st.subheader("Gantt Chart")
+st.image("gantt_converted.png")
+
 st.subheader("Github Repository")
 st.markdown("[https://github.gatech.edu/bproell3/StrokePrediction](https://github.gatech.edu/bproell3/StrokePrediction)")
 
