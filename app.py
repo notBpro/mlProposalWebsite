@@ -53,6 +53,15 @@ st.info("""
 st.subheader("Gantt Chart")
 st.image("gantt_converted.png")
 
+# Add download button for Excel file
+with open("Summer 2025 ML GanttChart.xlsx", "rb") as file:
+    st.download_button(
+        label="Download Gantt Chart Excel File",
+        data=file,
+        file_name="Summer 2025 ML GanttChart.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    )
+
 st.subheader("Github Repository")
 st.markdown("[https://github.gatech.edu/bproell3/StrokePrediction](https://github.gatech.edu/bproell3/StrokePrediction)")
 
