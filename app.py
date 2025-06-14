@@ -63,7 +63,11 @@ st.markdown("""
 """)
 
 st.subheader("Gantt Chart")
-st.image("gantt.png")
+try:
+    st.image("gantt.png", use_column_width=True)
+except Exception as e:
+    st.error(f"Error loading image: {str(e)}")
+    st.info("Please ensure gantt.png is in the same directory as app.py")
 
 # Add download button for Excel file
 with open("Summer 2025 ML GanttChart.xlsx", "rb") as file:
