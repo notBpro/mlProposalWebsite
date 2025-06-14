@@ -79,4 +79,5 @@ st.markdown("[https://github.gatech.edu/bproell3/StrokePrediction](https://githu
 
 
 st.markdown("---")
+st.markdown("Group 1 opts in for project award eligibility")
 st.markdown("Ben Proell, Nima Mollaei, Yoomin Choi, Taylor West, Tyler Chevalier")
