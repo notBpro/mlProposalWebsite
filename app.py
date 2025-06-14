@@ -15,7 +15,6 @@ st.markdown("---")
 st.header("Introduction and Background")
 st.write("""
 This project focuses on predicting the likelihood of stroke occurrence using machine learning techniques. 
-Stroke is a critical medical condition that requires early detection and intervention to prevent severe consequences.
 """)
 
 st.subheader("Literature Review")
