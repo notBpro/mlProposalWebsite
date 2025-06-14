@@ -78,6 +78,5 @@ st.subheader("Github Repository")
 st.markdown("[https://github.gatech.edu/bproell3/StrokePrediction](https://github.gatech.edu/bproell3/StrokePrediction)")
 
 
-# Footer
 st.markdown("---")
 st.markdown("Ben Proell, Nima Mollaei, Yoomin Choi, Taylor West, Tyler Chevalier")
