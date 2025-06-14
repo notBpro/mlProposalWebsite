@@ -63,14 +63,14 @@ st.markdown("""
 """)
 
 st.subheader("Gantt Chart")
-st.image("gantt_converted.png")
+st.image("gantt.png")
 
 # Add download button for Excel file
 with open("Summer 2025 ML GanttChart.xlsx", "rb") as file:
     st.download_button(
         label="Download Gantt Chart Excel File",
         data=file,
-        file_name="Summer 2025 ML GanttChart.xlsx",
+        file_name="Summer 2025 ML GanttChart (1).xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
 
