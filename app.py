@@ -50,6 +50,18 @@ st.info("""
 [6] "Random Forest and Other Randomized Tree Ensembles," Scikit Learn. [Online] Available: https://scikit-learn.org/stable/modules/ensemble.html#forest [Accessed June 13, 2025] 
 """)
 
+st.subheader("Team Responsibilities")
+st.markdown("""
+| Team Member | Sections | Responsibilities |
+|------------|----------|-----------------|
+| Tyler | 1, 2, 7.5, 9 | • Intro/background, Problem Definition, Responsibility table, PowerPoint |
+| Taylor | 5 | • Research/references |
+| Nima | 3, 4 | • Methods, Results and Discussion |
+| Benjamin | 6 | • Making website |
+| Yoomin | 6, 7 | • Making website, Gantt chart |
+| Everyone | 8 | • Recording Video |
+""")
+
 st.subheader("Gantt Chart")
 st.image("gantt_converted.png")
 
